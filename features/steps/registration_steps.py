@@ -17,9 +17,9 @@ def step_impl(context, name):
     context.reg.setName(name)
 
 
-@then(u'I enter the phone number as "{phoneNumber}"')
-def step_impl(context, phoneNumber):
-    context.reg.setPhoneNumber(phoneNumber)
+@then(u'I enter the phone number as "{phone_number}"')
+def step_impl(context, phone_number):
+    context.reg.setPhoneNumber(phone_number)
 
 
 @then(u'I enter the email as "{email}"')
